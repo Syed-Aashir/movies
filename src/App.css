@@ -1,0 +1,64 @@
+* {
+    scroll-behavior: smooth;
+  }
+  
+  .app {
+    min-height: 100vh;
+    background-color: #39445a;
+    color: white;
+    padding-top: 130px;
+    padding-bottom: 70px;
+  }
+  
+  @media (max-width: 700px) {
+    .app {
+      padding-top: 70px;
+    }
+  }
+  
+  .pageTitle {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vw;
+    padding: 4px;
+    border-radius: 50px;
+    color: white;
+  }
+  
+  @media (max-width: 1000px) {
+    .pageTitle {
+      font-size: 6.4vw;
+    }
+  }
+
+  .pagination-col{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #fff;
+  }
+
+  .pagination-col button{
+    color: #fff;
+  }
+
+  .pagination-col  .MuiPaginationItem-root{
+    color: #fff;
+  }
+
+  .genres-tag .css-m69qwo-MuiStack-root{
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    height: 80px;
+  }
+
+  .genres-tag .css-1rhixdg-MuiButtonBase-root-MuiChip-root{
+    margin: 0px 8px;
+  }
+
+  .genres-tag .css-s9g7yh-MuiButtonBase-root-MuiChip-root{
+    background-color: #fff;
+  }
