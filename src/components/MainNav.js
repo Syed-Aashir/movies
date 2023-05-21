@@ -23,7 +23,7 @@ export default function SimpleBottomNavigation() {
 
   useEffect(() =>{
     const pageUrl = tabUrl[value]
-       navigate(pageUrl);
+    navigate(pageUrl);
   },[value]);
 
   return (

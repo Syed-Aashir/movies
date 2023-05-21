@@ -8,6 +8,7 @@ import Movies from './pages/Movies/Movies';
 import Series from './pages/Series/Series';
 import Search from './pages/Search/Search';
 import Header from './components/Header/Header';
+import SingleMovie from './pages/SingleMovie/SingleMovie';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/movies' Component={Movies} />
           <Route path='/series' Component={Series} />
           <Route path='/search' Component={Search} />
+          <Route path='/movies/:movieId/:mediaType' Component={SingleMovie} />
         </Routes>
       </Container>
     </div>
