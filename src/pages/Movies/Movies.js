@@ -12,7 +12,7 @@ const Movies = () => {
   const[numOfPages, setNumOfPages] = useState();
   const[selectedGenres, setSelectedGenres] = useState([]);
   const[genres, setGenres] = useState([]);
-  const genreforURL = useGenres(selectedGenres)
+  const genreforURL = useGenres(selectedGenres);
 
 
   const fetchMovies = async () =>{
@@ -25,6 +25,7 @@ const Movies = () => {
 
   useEffect(() =>{
     fetchMovies();
+    // eslint-disable-next-line
   }, [page, genreforURL])
   return (
     <div>
